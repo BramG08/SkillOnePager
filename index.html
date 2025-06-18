@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="js/main.js" defer></script>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>Bram Grippeling  One-Pager</title>
+</head>
+
+<body class="page">
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#hero" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="#skills" class="nav__link">Over Mij</a></li>
+        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <!-- Hero Section -->
+    <section id="hero" class="section section--hero">
+      <div class="section__content section__content--centered">
+        <img src= "img/IMG_2411.JPG" alt="Mijn foto" class="section__image profile-image" />
+        <h1 class="section__title">Bram Grippeling</h1>
+      </div>
+    </section>
+
+    <section id="skills" class="section section--skills">
+      <div class="section__content">
+        <h2 class="section__subtitle">Na het MA!</h2>
+        <p class="section__description">
+          Na mijn opleiding aan het Mediacollege wil ik graag samenwerken met een team aan grote projecten.
+          Mijn doel is om een impact te maken op mensen die het echt nodig hebben en bij te dragen aan een
+          betere wereld voor iedereen. Ik droom ervan om het leven gemakkelijker te maken voor zoveel mogelijk
+          mensen.
+
+          Een van mijn ambities is om later remote te werken, of dat nu is voor een bedrijf of als freelancer.
+          Zo kan ik mijn vaardigheden inzetten om anderen te helpen, waar ter wereld ik ook ben.
+        </p>
+
+        <h2 class="section__subtitle">Prestaties</h2>
+        <p class="section__description">
+          Mijn prestaties tot nu toe omvatten het bouwen van mijn eigen website en het effectief samenwerken
+          met anderen. Ik kijk er echter naar uit om nog veel meer te bereiken en een indrukwekkende lijst van
+          prestaties op te bouwen waar ik trots op kan zijn.
+          Daarnaast wil ik mijn soft skills verder verbeteren. Dit zal me helpen om efficiënter aan projecten
+          te werken, betere samenwerkingen aan te gaan en sterkere connecties te leggen.
+        </p>
+
+        <h2 class="section__subtitle">Mijn Soft Skills</h2>
+        <p class="section__description">
+          Naast mijn technische vaardigheden wil ik mezelf als persoon verder ontwikkelen. Ik streef ernaar om
+          samen met anderen in mijn vakgebied niet alleen sterke code te schrijven, maar ook projecten te creëren
+          waar we trots op kunnen zijn, zelfs buiten het technische aspect.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section--contact">
+      <h2 class="section__title">Contact Bram</h2>
+      <form  class="form">
+        <input type="text" name="name" class="form__input" placeholder="Naam" required />
+        <input type="text" name="email" class="form__input" placeholder="Email" required />
+        <textarea type="text" name="message" class="form__input" placeholder="Bericht" required></textarea>
+        <input type="hidden" name="send_to_mail" value="YOUR@EMAIL.COM" />
+        <input type="hidden" name="_subject" value="Nieuw bericht van je CV-site" />
+        <button type="submit" class="form__button">Versturen</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__text">&copy; 2025 Bram Grippeling</p>
+  </footer>
+</body>
+</html>
